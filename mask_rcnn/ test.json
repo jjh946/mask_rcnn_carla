@@ -1,0 +1,43 @@
+{
+    "camera_data": {
+        "size": {"width": 1280, "height": 720}
+    },
+    "label_data": {
+        "2d_bounding_box": [
+            {
+                "id": "unique_identifier_1",
+                "class": "Vehicle",
+                "left": {"top": {"x": 100, "y": 200}},
+                "right": {"bottom": {"x": 150, "y": 250}}
+            },
+            {
+                "id": "unique_identifier_2",
+                "class": "Pedestrian",
+                "left": {"top": {"x": 300, "y": 400}},
+                "right": {"bottom": {"x": 350, "y": 450}}
+            }
+        ],
+        "polygon": [
+            {
+                "id": "unique_identifier_1",
+                "class": {"level1": "Vehicle"},
+                "point_list": [
+                    {"x": 100, "y": 200},
+                    {"x": 150, "y": 200},
+                    {"x": 150, "y": 250},
+                    {"x": 100, "y": 250}
+                ]
+            },
+            {
+                "id": "unique_identifier_2",
+                "class": {"level1": "Pedestrian"},
+                "point_list": [
+                    {"x": 300, "y": 400},
+                    {"x": 350, "y": 400},
+                    {"x": 350, "y": 450},
+                    {"x": 300, "y": 450}
+                ]
+            }
+        ]
+    }
+}
