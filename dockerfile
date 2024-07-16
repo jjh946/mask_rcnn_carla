@@ -1,5 +1,5 @@
 # Use the pytorch/pytorch:latest image as the base image
-FROM pytorch/pytorch:latest
+FROM pytorch/pytorch:2.3.1-cuda12.1-cudnn8-devel
 
 # Set the working directory inside the container
 WORKDIR /workspace
