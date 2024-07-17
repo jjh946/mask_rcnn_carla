@@ -1,5 +1,11 @@
 #최종결과 파일
-/final_output
+/final_output/image
+/final_output/logs
+/final_output/best_mask_rcnn_model.pt
+/final_output/result
+/final_output/test
+/final_output/train
+/final_output/val
 
 #도커 컨테이너 내부(mask_rcnn)의 결과
 /mask_rcnn/Output
