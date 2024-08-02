@@ -12,3 +12,5 @@
 
 #컨테이너 내부의 캐시파일
 /mask_rcnn/__pycache__
+
+/maskrcnn_NIA.tar
