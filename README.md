@@ -44,7 +44,7 @@ saved
 
 ## Just Test
 
-`just_train`을 실행시켰다면, `vehicle_detection`이라는 이름의 이미지를 가진 컨테이너가 하나 생성되었을 것이다. `just_test`는 이 컨테이너를 실행시켜, 학습된 모델의 성능을 테스트하고 테스트된 이미지를 final_result에 저장해준다
+`just_train`을 실행시켰다면, `vehicle_detection`이라는 이름의 이미지를 가진 컨테이너가 하나 생성되었을 것이다. `just_test`는 이 컨테이너를 실행시켜, 학습된 모델의 성능을 테스트하고 테스트된 이미지를 `final_result`에 저장해준다
 
 ```bash
 ./just_test.sh
