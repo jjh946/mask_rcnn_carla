@@ -1,6 +1,6 @@
 # Mask R CNN for Carla Data
 
-이 문서의 모든 명령어는 이 프로젝트의 위치 `maskrcnn` 에서 실행된다.
+이 문서의 모든 명령어는 이 프로젝트의 위치 `mask_rcnn_carla` 에서 실행된다.
 
 # 자동화 실행
 
