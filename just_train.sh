@@ -27,7 +27,7 @@ docker build -t vehicle_detection .
 
 # 도커 컨테이너 실행
 echo "Running Docker container..."
-docker run -it --rm --gpus all \
+docker run -it --gpus all \
   -v "$PWD/final_output:/workspace/Output/result" \
   -v "$SAVED_PATH:/workspace/data" \
   vehicle_detection

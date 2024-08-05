@@ -21,4 +21,4 @@ python3 /workspace/NIA_train.py --data_path /workspace/Output/train --val_path /
 
 
 # Keep the container running
-tail -f /dev/null
+exec "$@"
