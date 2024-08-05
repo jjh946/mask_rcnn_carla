@@ -15,10 +15,10 @@ done
 # Run the NIA_train.py script
 python3 /workspace/NIA_train.py --data_path /workspace/Output/train --val_path /workspace/Output/val
 
-# Run the NIA_test.py script
-python3 /workspace/NIA_test.py --test_data_path /workspace/Output/test/ --model_path /workspace/Output/result/best_mask_rcnn_model.pt
+# # Run the NIA_test.py script
+# python3 /workspace/NIA_test.py --test_data_path /workspace/Output/test/ --model_path /workspace/Output/result/best_mask_rcnn_model.pt
 
 
 
 # Keep the container running
-exec "$@"
+tail -f /dev/null
